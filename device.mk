@@ -23,7 +23,7 @@ PRODUCT_AAPT_PREBUILT_DPI := xhdpi 280dpi hdpi tvdpi mdpi ldpi
 DEVICE_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
 
 # Common product elements
-$(call inherit-product, device/pantech/blue-common/common.mk)
+$(call inherit-product, device/pantech/msm8960-common/common.mk)
 
 # Device product elements
 include $(LOCAL_PATH)/product/*.mk
