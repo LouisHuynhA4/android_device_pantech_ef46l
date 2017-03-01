@@ -19,18 +19,18 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configurations
-$(call inherit-product, device/sony/mint/device.mk)
+$(call inherit-product, device/pantech/ef46l/device.mk)
 
 # Device display
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Device identifications
-PRODUCT_DEVICE := mint
-PRODUCT_NAME := lineage_mint
-PRODUCT_BRAND := Sony
-PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := Xperia T
+PRODUCT_DEVICE := ef46l
+PRODUCT_NAME := lineage_ef46l
+PRODUCT_BRAND := Sky
+PRODUCT_MANUFACTURER := Pantech
+PRODUCT_MODEL := IM-A830K
 
 # Build fingerprints
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=LT30p BUILD_FINGERPRINT=Sony/LT30p/LT30p:4.3/9.2.A.1.205/Mvv_tg:user/release-keys PRIVATE_BUILD_DESC="LT30p-user 4.3 JB-MR2-BLUE-140313-0947 257 test-keys"
