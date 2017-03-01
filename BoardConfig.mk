@@ -21,7 +21,7 @@ DEVICE_PATH := device/pantech/ef46l
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Board common elements
-include device/pantech/blue-common/BoardConfigCommon.mk
+include device/pantech/msm8960-common/BoardConfigCommon.mk
 
 # Board device elements
 include $(DEVICE_PATH)/board/*.mk
