@@ -23,10 +23,10 @@ PRODUCT_AAPT_PREBUILT_DPI := xhdpi 280dpi hdpi tvdpi mdpi ldpi
 DEVICE_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
 
 # Common product elements
-$(call inherit-product, device/sony/blue-common/common.mk)
+$(call inherit-product, device/pantech/blue-common/common.mk)
 
 # Device product elements
 include $(LOCAL_PATH)/product/*.mk
 
 # Vendor product configurations
-$(call inherit-product, vendor/sony/mint/mint-vendor.mk)
+$(call inherit-product, vendor/pantech/ef46l/ef46l-vendor.mk)
